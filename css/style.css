@@ -1,72 +1,84 @@
-/* Add a black background color to the top navigation */
-.topnav {
-    position: relative;
-    background-color: transparent;
-    overflow: hidden;
-    margin-bottom: 100%;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: black;
-    font-family: 'Montserrat Alternates';
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    margin-top: 4%;
-    font-size: 45px;
-  }
-  
-  /* Change the color of links on hover */
-  
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    color: black;
-  }
+body, html {
+	margin: 0;
+	font-family: "Montserrat Alternates";
+}
 
-  .topnav a.inactive {
-    color: gray;
-  }
-  
-  /* Centered section inside the top navigation */
-  .topnav-centered a {
-    float:inline-start;
-    position: relative;
-    margin-top: 3%;
-    left: 45%;
-    right: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .topnav-left {
-    float: left;
-    margin-left: 3%;
-    position: absolute;
-    margin-top: 2.5%;
-    transform: translate(-50%, -50%);
-  }
-  
-  /* Right-aligned section inside the top navigation */
-  .topnav-right {
-    float: right;
-    position: relative;
-    margin-top: 2.5%;
-    transform: translate(-50%, -50%);
-  }
-  
-  /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
-  @media screen and (max-width: 600px) {
-    .topnav a, .topnav-right {
-      float: none;
-      display: block;
-    }
-  
-    .topnav-centered a {
-      position: relative;
-      top: 0;
-      left: 0;
-      transform: none;
-    }
-  }
+a {
+	outline: black;
+}
+
+.nav-link-right {
+    text-align: right;
+}
+
+.navbar-container {
+	text-align: center;
+	background-color: transparent;
+	box-shadow: 0px -20px 5px 20px transparent;
+	padding: 10px;
+	font-size: 0;
+}
+
+.navbar-container ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.navbar-container ul li {
+	display: inline-block;
+	font-size: 48px;
+}
+
+.navbar-container ul li a {
+	color: black;
+	text-decoration: none;
+	display: inline-block;	
+	padding: 10px;
+	transition: color 0.5s;
+}
+
+.navbar-container ul li .underline {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+	transition: width 0.2s, background-color 0.5s;
+	margin: 0 auto;
+}
+
+.navbar-container ul li.active-link .underline {
+	width: 100%;
+	background-color: black;
+}
+
+.navbar-container ul li:hover .underline {
+	background-color: gray;
+	width: 100%;
+}
+
+.navbar-container ul li:hover a {
+}
+
+.navbar-container ul li:active a {
+	transition: none;
+	color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.p {
+    text-align: center;
+}
+
+.top-bar {
+    background-image: linear-gradient(to right, #FDC830, #F37335);
+    height: 45px;
+    padding: .5rem 0;
+}
+
+
