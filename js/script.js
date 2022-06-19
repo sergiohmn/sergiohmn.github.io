@@ -1,7 +1,9 @@
-alert("asd")
-$('.nav-link').on('click', function() {
-	$('.active-link').removeClass('active-link');
-	$(this).addClass('active-link');
+$(document).ready(
+	function(){
+		$('ul li').click(
+			function(){
+				//alert('click trigger')
+				$('ul li').removeClass('active-link')
+				$(this).addClass('active-link')
+			});
 });
-
-alert("asd")
