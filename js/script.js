@@ -1,22 +1,30 @@
-$(document).ready(
-	function(){
-		$('ul li').click(
-			function(){
-				$('ul li').removeClass('active-link')
-				$(this).addClass('active-link')
-			});
-});
+// $(function(){
+// 	$()
+// })
 
-$(document).ready(
-	function(){
-		$('.navbar-container .nav-link').bind("click", function(event) {
-			event.preventDefault();
-			var clickedItem = $(this);
-			$('.navbar-container .nav-link').each(function() {
-				$(this).removeClass("active");
-			});
-		});
-	});
+
+// $(document).ready(
+// 	function(){
+// 		$('ul li').click(
+// 			function(){
+// 				$('ul li').removeClass('active-link')
+// 				$(this).addClass('active-link')
+// 			});
+// });
+
+// $(document).ready(
+// 	function(){
+// 		alert("asd")
+// 		$('li.nav-link').bind("click", function(event) {
+// 			event.preventDefault();
+// 			alert("basd")
+// 			var clickedItem = $(this);
+// 			console.log(clickedItem)
+// 			$('.navbar-container .nav-link').each(function() {
+// 				$(this).removeClass("active");
+// 			});
+// 		});
+// 	});
 	
 // pages = ['index', 'projects']
 // $('.nav-item').each(function(i) {
