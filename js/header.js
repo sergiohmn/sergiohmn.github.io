@@ -4,4 +4,5 @@ $(function(){
        window.location.pathname.split('/').pop() +
        '"]', this).parent().addClass('active-link').siblings().removeClass('active-link');
     }); 
+    $("#footer").load("footer.html")
   });
