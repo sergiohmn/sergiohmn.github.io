@@ -140,7 +140,8 @@ a {
 	height: 80px; 
 	overflow: hidden;
 	pointer-events: none;
-	position:relative
+	position:relative;
+	border: 1.3px solid rgb(0, 0, 0); 
   }
 
   .video-container video {
@@ -159,4 +160,5 @@ a {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+
   }
