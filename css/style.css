@@ -162,3 +162,8 @@ a {
 	transform: translate(-50%,-50%);
 
   }
+
+  .footer footer{
+	position: absolute;
+	margin-top: -520px;
+  }
