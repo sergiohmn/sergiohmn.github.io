@@ -189,6 +189,10 @@ margin-top: max(90vh, 500px);
 	justify-content: space-between;
 }
 
+.project-cards-container{
+	margin-top: 100px;
+}
+
   
 .blog-card {
 	max-width: 1050px;

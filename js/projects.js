@@ -11,14 +11,14 @@ const logFileText = async file => {
 async function loadCards(fileDirectory, insertionDiv) {
     const cardDictionary = await logFileText(fileDirectory)
 
-    const cardContainer = document.querySelector('#products-cards-container')
+    const cardContainer = document.querySelector('#project-cards-container')
+    
+    cardContainer.innerHTML = '';
 
     
 
     
     for (const cardData of cardDictionary){
-        var newCard = document.createElement('div')
-
         const name = cardData['name'],
         intro = cardData['intro'],
         description = cardData['description'],
@@ -30,11 +30,15 @@ async function loadCards(fileDirectory, insertionDiv) {
         ${cardData['createdDate']['month']}/
         ${cardData['createdDate']['day']}/
         ${cardData['createdDate']['year']}`)
+
+        var newCard = document.createElement('div')
+        newCard.className = 'blog-card spring-fever'
+        newCard.style.background = `${imageUrl} center no-repeat`;
+        newCard.style.backgroundSize = '100%'
         
         
 
         newCard.innerHTML = `
-        <div class="blog-card spring-fever" style="background: ${imageUrl} center no-repeat; background-size: 100%;">
             <div class="title-content">
                 <h3><a href="#">${name}</a></h3>
                 <div class="intro">${intro}</div>
@@ -51,13 +55,13 @@ async function loadCards(fileDirectory, insertionDiv) {
             <div class="utility-info">
                 <ul class="utility-list">
                     <li><span class="licon icon-dat"></span>${createdDate.toString().split(' ')[1]} ${createdDate.getFullYear()} </li>
-                    <li><span class="licon icon-tag"></span><a href="#">Photos</a>, <a href="#">Nice</a></li>
+                    <li><span class="licon icon-tag"></span>${tags.join(', ')}</li>
                 </ul>
             </div>
 
             <div class="gradient-overlay"></div>
             <div class="color-overlay"></div>
-        </div>`
+        `
 
         cardContainer.appendChild(newCard)
 

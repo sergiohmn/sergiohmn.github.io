@@ -1,9 +1,20 @@
 [
     {
+        "name" : "LCU.py",
+        "intro" : "An LCU Wrapper for http requests",
+        "description" : "Music bot includes a full music player feature integrated with youtube, as well ",
+        "imageUrl" : "url(../img/lcu_background.jpg)",
+        "pageUrl" : "",
+        "githubUrl" : "",
+        "tags" : ["Python", "Postman", "API", "async", "HTTP"],
+        "createdDate" : {"day":8, "month":6, "year":2022}
+    },
+
+    {
         "name" : "Mudbot - A Discord Bot",
         "intro" : "A Lightweight and Async Music Player",
         "description" : "Music bot includes a full music player feature integrated with youtube, as well ",
-        "imageUrl" : "url(../img/discordbackground.jpg)",
+        "imageUrl" : "url(../img/discord_background.png)",
         "pageUrl" : "",
         "githubUrl" : "",
         "tags" : ["python", "api"],
