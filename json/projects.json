@@ -1,20 +1,35 @@
 [
     {
         "name" : "Mudbot - A Discord Bot",
-        "description" : "Lightweight and Asynchronous Music Player via VoIP",
-        "imageUrl" : "",
-        "url" : "",
+        "intro" : "A Lightweight and Async Music Player",
+        "description" : "Music bot includes a full music player feature integrated with youtube, as well ",
+        "imageUrl" : "url(../img/discordbackground.jpg)",
+        "pageUrl" : "",
         "githubUrl" : "",
-        "tags" : [],
+        "tags" : ["python", "api"],
         "createdDate" : {"day":8, "month":6, "year":2022}
     },
 
     {
-        "blog2name": "planneradora"
+        "name" : "Planneradora",
+        "intro" : "A Lightweight and Async Music Player",
+        "description" : "Music bot includes a full music player feature integrated with youtube, as well ",
+        "imageUrl" : "url(../img/google.png)",
+        "pageUrl" : "",
+        "githubUrl" : "",
+        "tags" : ["python", "api"],
+        "createdDate" : {"day":8, "month":5, "year":2022}
     },
 
     {
-        "blog3name" : "faceOff"
+        "name" : "Face-Off",
+        "intro" : "A Lightweight and Async Music Player",
+        "description" : "Music bot includes a full music player feature integrated with youtube, as well ",
+        "imageUrl" : "img/google.png",
+        "pageUrl" : "",
+        "githubUrl" : "",
+        "tags" : ["python", "api"],
+        "createdDate" : {"day":8, "month":5, "year":2022}
     }
 
 ]
