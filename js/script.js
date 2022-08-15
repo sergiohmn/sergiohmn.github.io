@@ -1,7 +1,8 @@
-// $(function(){
-// 	$()
-// })
 
+
+// fetch('cards.json')
+// .then(response => response.json())
+// .then(jsonResponse => console.log(jsonResponse))
 
 // $(document).ready(
 // 	function(){
@@ -53,3 +54,8 @@
 //    });
 
 // }
+
+
+function loadBlogEntries(){
+
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "name" : "Mudbot - A Discord Bot",
+        "description" : "Lightweight and Asynchronous Music Player via VoIP",
+        "imageUrl" : "",
+        "url" : "",
+        "githubUrl" : "",
+        "tags" : [],
+        "createdDate" : {"day":8, "month":6, "year":2022}
+    },
+
+    {
+        "blog2name": "planneradora"
+    },
+
+    {
+        "blog3name" : "faceOff"
+    }
+
+]
