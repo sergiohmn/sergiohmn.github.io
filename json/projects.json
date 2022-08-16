@@ -1,46 +1,46 @@
 [
     {
         "name" : "LCU.py",
-        "intro" : "An LCU Wrapper for http requests",
-        "description" : "Music bot includes a full music player feature integrated with youtube, as well ",
+        "intro" : "LCU Wrapper for HTTP requests",
+        "description" : "LCU.py is [going to be] a lightweight wrapper that handles HTTP GET/POST requests from the League Of Legends (LoL) Desktop Client and caches the response data. The end result is a library that makes it easier to access client data all-the-while reducing the inefficiency of numerous HTTP requests & endpoint tracking through caching & derived classes.",
         "imageUrl" : "url(../img/lcu_background.jpg)",
         "pageUrl" : "",
-        "githubUrl" : "",
-        "tags" : ["Python", "Postman", "API", "async", "HTTP"],
-        "createdDate" : {"day":8, "month":6, "year":2022}
+        "githubUrl" : "https://github.com/sergionjr/LCU.py",
+        "tags" : ["Python", "API", "Async", "HTTP GET/POST"],
+        "createdDate" : {"day":8, "month":8, "year":2022}
     },
 
     {
         "name" : "Mudbot - A Discord Bot",
-        "intro" : "A Lightweight and Async Music Player",
-        "description" : "Music bot includes a full music player feature integrated with youtube, as well ",
+        "intro" : "Lightweight and Async Music Player Bot",
+        "description" : "Mudbot is a for-fun project that aims to compartmentalize many different Discord Bot features and allow users to implement 'Cogs' (bundles of functions) into their own bots. It can play audio from YouTube Videos, Remind you of events, and play basic games.",
         "imageUrl" : "url(../img/discord_background.png)",
         "pageUrl" : "",
-        "githubUrl" : "",
-        "tags" : ["python", "api"],
-        "createdDate" : {"day":8, "month":6, "year":2022}
+        "githubUrl" : "https://github.com/sergionjr/Discord-Bot",
+        "tags" : ["Python", "API"],
+        "createdDate" : {"day":8, "month":7, "year":2022}
     },
 
     {
         "name" : "Planneradora",
-        "intro" : "A Lightweight and Async Music Player",
-        "description" : "Music bot includes a full music player feature integrated with youtube, as well ",
-        "imageUrl" : "url(../img/google.png)",
+        "intro" : "A Modern take on Reminder Apps",
+        "description" : "Full-Stack & Appearance-Driven Android 'Tasks' application. Stores user-inputted credentials and pushes a notification when input datetime aligns with current datetime. Allows for modification, deletion, and insertion of tasks. Uses secure auth through Firebase.",
+        "imageUrl" : "url(https://images.ctfassets.net/gg4ddi543f5b/nl7f2QC6oYRf3UgUXJWlS/2ac22525952f5631e7ae5398ed6e212e/task-list-tempaltes-1-1.jpg)",
         "pageUrl" : "",
-        "githubUrl" : "",
-        "tags" : ["python", "api"],
-        "createdDate" : {"day":8, "month":5, "year":2022}
+        "githubUrl" : "https://github.com/sergionjr/Planneradora",
+        "tags" : ["Java", "XAML", "NoSQL", "Android"],
+        "createdDate" : {"day":8, "month":5, "year":2021}
     },
 
     {
         "name" : "Face-Off",
-        "intro" : "A Lightweight and Async Music Player",
-        "description" : "Music bot includes a full music player feature integrated with youtube, as well ",
-        "imageUrl" : "img/google.png",
-        "pageUrl" : "",
-        "githubUrl" : "",
-        "tags" : ["python", "api"],
-        "createdDate" : {"day":8, "month":5, "year":2022}
+        "intro" : "Covid-19: Sanitary Habit Tracker",
+        "description" : "Face-Off is an application created by me and some classmates that encompasses a variety of COVID-19-related tasks. The application allows the user to log their face-touching habits and put them in a 'risk-group'. The risk group would have a recommended pattern of sanitary behavior to reduce risk. It used NYTimes API Data to highlight the prevalence of COVID in surrounding counties.",
+        "imageUrl" : "url(https://www.cdc.gov/media/dpk/diseases-and-conditions/coronavirus/images/outbreak-coronavirus-world-1024x506px.jpg?_=31301)",
+        "pageUrl" : "#",
+        "githubUrl" : "https://github.com/sergionjr/FaceOff3",
+        "tags" : ["Java", "XAML", "API", "MySQL", "Android"],
+        "createdDate" : {"day":8, "month":12, "year":2020}
     }
 
 ]

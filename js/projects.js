@@ -12,12 +12,7 @@ async function loadCards(fileDirectory, insertionDiv) {
     const cardDictionary = await logFileText(fileDirectory)
 
     const cardContainer = document.querySelector('#project-cards-container')
-    
-    cardContainer.innerHTML = '';
 
-    
-
-    
     for (const cardData of cardDictionary){
         const name = cardData['name'],
         intro = cardData['intro'],
@@ -37,18 +32,19 @@ async function loadCards(fileDirectory, insertionDiv) {
         newCard.style.backgroundSize = '100%'
         
         
-
+// Whenever ready, this is the omitted code for the 'see more' button from 8.15
+// <a href="${pageUrl}">See more<br><i class="fa-solid fa-angle-right"></i></a>
         newCard.innerHTML = `
             <div class="title-content">
-                <h3><a href="#">${name}</a></h3>
+                <h3><a href="${githubUrl}">${name}</a></h3>
                 <div class="intro">${intro}</div>
             </div>
 
             <div class="card-info">
             ${description}
                 <div class="link-wrapper">
-                    <a href="${pageUrl}">Project Page</a>
-                    <a href="${githubUrl}">Source Code</a>
+                    
+                    <a href="${githubUrl}">Source Code<br><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
 
