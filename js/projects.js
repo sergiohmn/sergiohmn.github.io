@@ -60,11 +60,6 @@ async function loadCards(fileDirectory, insertionDiv) {
         `
 
         cardContainer.appendChild(newCard)
-
-        // let newCard = document.createElement('div')
-        // // newCard.classList.add('blog-card spring-fever')
-        // console.log(cardData)
-        // console.log(newCard)
     }
 
 }

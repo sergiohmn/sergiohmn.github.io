@@ -2,11 +2,11 @@
     {
         "name" : "LCU.py",
         "intro" : "LCU Wrapper for HTTP requests",
-        "description" : "LCU.py is [going to be] a lightweight wrapper that handles HTTP GET/POST requests from the League Of Legends (LoL) Desktop Client and caches the response data. The end result is a library that makes it easier to access client data all-the-while reducing the inefficiency of numerous HTTP requests & endpoint tracking through caching & derived classes.",
+        "description" : "LCU.py is [going to be] a lightweight REST API wrapper that handles HTTP GET/POST requests from the League Of Legends (LoL) Desktop Client and caches the response data into contextualized classes, attributes, and methods. The end result is a library that makes it easier to access client data and reduce the inefficiency of numerous HTTP requests & endpoint tracking through caching & derived classes.",
         "imageUrl" : "url(../img/lcu_background.jpg)",
         "pageUrl" : "",
         "githubUrl" : "https://github.com/sergionjr/LCU.py",
-        "tags" : ["Python", "API", "Async", "HTTP GET/POST"],
+        "tags" : ["Python", "REST API", "HTTP GET/POST", "Async"],
         "createdDate" : {"day":8, "month":8, "year":2022}
     },
 
