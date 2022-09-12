@@ -11,8 +11,8 @@
     },
 
     {
-        "name" : "Mudbot - A Discord Bot",
-        "intro" : "Lightweight and Async Music Player Bot",
+        "name" : "Discord Assistant",
+        "intro" : "Python Discord Bot with music, reminders, and other tools",
         "description" : "Mudbot is a for-fun project that aims to compartmentalize many different Discord Bot features and allow users to implement 'Cogs' (bundles of functions) into their own bots. It can play audio from YouTube Videos, Remind you of events, and play basic games.",
         "imageUrl" : "url(../img/discord_background.png)",
         "pageUrl" : "",
@@ -23,7 +23,7 @@
 
     {
         "name" : "Planneradora",
-        "intro" : "A Modern take on Reminder Apps",
+        "intro" : "Modern Android Mobile App for Reminders",
         "description" : "Full-Stack & Appearance-Driven Android 'Tasks' application. Stores user-inputted credentials and pushes a notification when input datetime aligns with current datetime. Allows for modification, deletion, and insertion of tasks. Uses secure auth through Firebase.",
         "imageUrl" : "url(https://images.ctfassets.net/gg4ddi543f5b/nl7f2QC6oYRf3UgUXJWlS/2ac22525952f5631e7ae5398ed6e212e/task-list-tempaltes-1-1.jpg)",
         "pageUrl" : "",
